@@ -1,3 +1,4 @@
+<?php chdir(dirname(__DIR__)); ?>
 <!DOCTYPE html>
 <html>
     <?php require_once('head.php'); ?>
@@ -12,8 +13,7 @@
         ?>
         
         <div class="container">
-            <?php checaRota($rota, $rotasPermitidas) ?>
-                          
+            <?php checaRota($rota, $rotasPermitidas) ?>          
             <?php require_once('footer.php'); ?>
         </div>
     </body>
