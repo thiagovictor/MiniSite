@@ -1,8 +1,0 @@
-[07-Jul-2014 17:36:40 America/Sao_Paulo] PHP Warning:  require_once(../head.php): failed to open stream: No such file or directory in C:\php\www\MiniSite\public\index.php on line 3
-[07-Jul-2014 17:36:40 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '../head.php' (include_path='.;C:\php\pear') in C:\php\www\MiniSite\public\index.php on line 3
-[07-Jul-2014 17:45:09 America/Sao_Paulo] PHP Warning:  require_once(menu.php): failed to open stream: No such file or directory in C:\php\www\MiniSite\public\index.php on line 5
-[07-Jul-2014 17:45:09 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required 'menu.php' (include_path='.;C:\php\pear') in C:\php\www\MiniSite\public\index.php on line 5
-[07-Jul-2014 17:45:33 America/Sao_Paulo] PHP Warning:  require_once(./menu.php): failed to open stream: No such file or directory in C:\php\www\MiniSite\public\index.php on line 5
-[07-Jul-2014 17:45:33 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required './menu.php' (include_path='.;C:\php\pear') in C:\php\www\MiniSite\public\index.php on line 5
-[07-Jul-2014 17:45:54 America/Sao_Paulo] PHP Warning:  require_once(./../head.php): failed to open stream: No such file or directory in C:\php\www\MiniSite\public\index.php on line 3
-[07-Jul-2014 17:45:54 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required './../head.php' (include_path='.;C:\php\pear') in C:\php\www\MiniSite\public\index.php on line 3

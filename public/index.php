@@ -1,4 +1,7 @@
-<?php chdir(dirname(__DIR__)); ?>
+<?php
+session_start();
+chdir(dirname(__DIR__)); 
+?>
 <!DOCTYPE html>
 <html>
     <?php require_once('head.php'); ?>

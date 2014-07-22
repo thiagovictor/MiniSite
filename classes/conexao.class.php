@@ -6,7 +6,7 @@ class conexao {
     private $host = "localhost";
     private $dbname = "db_pratica";
     private $user = "root";
-    private $password = "password";
+    private $password = "";
     private $conn;
 
     public function __construct() {

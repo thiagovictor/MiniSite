@@ -6,6 +6,12 @@
             <li><a href="/produtos">Produtos</a></li>
             <li><a href="/servicos">Serviços</a></li>
             <li><a href="/contato">Contato</a></li>
+            <?php if(isset($_SESSION["autenticado"])):?>
+            <li><a href="/administracao">Administração</a></li>
+            <li><a href="/logout">Sair(<?php echo $_SESSION["user"]?>)</a></li>
+            <?php else:?>
+            <li><a href="/administracao">Área restrita</a></li>
+            <?php endif;?>
             <li>
                 <form method="POST" action="/pesquisa" class="form-search">
                     <input type="text" name="pesquisa" class="input-medium search-query">

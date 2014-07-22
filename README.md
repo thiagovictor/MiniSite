@@ -19,4 +19,10 @@ Pronto. Agora, vamos iniciar o servidor PHP Built-in Server na pasta public
 ```
 php -S localhost:8181 -t public
 ```
+Para acesso a Área restrita, utilize os acessos:
+```
+Usuário: admin
+Senha: 123456
+```
+
 **Pronto, aplicação pronta para uso**
